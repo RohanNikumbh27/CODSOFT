@@ -239,7 +239,7 @@ li {
     color: rgb(166, 42, 255);
     border-radius: 14px;
     text-align: center;
-    font-family:cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
     margin: 20px;
     transition: 0.3s ease-in-out;
     cursor: pointer;
