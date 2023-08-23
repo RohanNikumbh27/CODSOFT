@@ -92,15 +92,21 @@ li {
 
 #RohHeading {
     z-index: 0;
-    /* text-shadow: 0 0 10px rgb(57, 21, 184); */
-    color:rgb(97, 0, 188); 
-    margin: 0;
+    color:rgb(0, 0, 0);
     font-size: 38px;
     font-family: Ubuntu;
+    background-color: rgba(91, 0, 196, 0.8);
+    display: inline;
+    border-radius: 10px;
+    padding: 2px 30px 2px 30px;
+    transform: scale(1.2);
 }
 
 #RohHeading:hover {
-    text-shadow: 0 1px 6px rgb(59, 0, 114);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(34, 0, 255),  0 0 10px rgb(81, 0, 255);
+    transition: 0.16s ease-out;
+    cursor: pointer;
 }
 
 #MainHeading {
